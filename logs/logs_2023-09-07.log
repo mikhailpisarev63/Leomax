@@ -1,6 +1,6 @@
-[INFO ] 2023-09-07 14:56:48,344 PageWebDriver:30.setUp()  - Путь до драйвера
-[INFO ] 2023-09-07 14:56:48,347 PageWebDriver:32.setUp()  - Иницилизация драйвера
-[INFO ] 2023-09-07 14:56:50,159 PageWebDriver:41.setUp()  - Тайминг в 5 секунд
-[INFO ] 2023-09-07 14:56:50,167 PageWebDriver:43.setUp()  - Получение URL
-[INFO ] 2023-09-07 14:56:53,993 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (fe04f01847026deb4b35d0402a265269)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 14:56:54,022 PageWebDriver:60.tearDown()  - Выходим из драйвера
+[INFO ] 2023-09-07 15:18:00,986 PageWebDriver:30.setUp()  - Путь до драйвера
+[INFO ] 2023-09-07 15:18:00,990 PageWebDriver:32.setUp()  - Иницилизация драйвера
+[INFO ] 2023-09-07 15:18:02,528 PageWebDriver:41.setUp()  - Тайминг в 5 секунд
+[INFO ] 2023-09-07 15:18:02,537 PageWebDriver:43.setUp()  - Получение URL
+[INFO ] 2023-09-07 15:18:05,876 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (c8f5643d80aa99bc543286db3b0354f5)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 15:18:06,013 PageWebDriver:60.tearDown()  - Выходим из драйвера

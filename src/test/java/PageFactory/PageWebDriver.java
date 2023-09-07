@@ -35,7 +35,7 @@ public class PageWebDriver {
         chromeOptions.setHeadless(true);
 //        Установка размера окна
         chromeOptions.addArguments("window-size=1920,1080");
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(chromeOptions);
 //        Пока закомментировал, потому что эта настройка говорит открыть окно браузера
 //        driver.manage().window().maximize();
         LOGGER.info("Тайминг в 5 секунд");
