@@ -28,7 +28,8 @@ public class PageWebDriver {
     @BeforeClass
     public static void setUp() {
         LOGGER.info("Путь до драйвера");
-        System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
+//        System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
+//        systemPropertyVariables
         LOGGER.info("Иницилизация драйвера");
         driver = new ChromeDriver(chromeOptions);
         chromeOptions = new ChromeOptions();
