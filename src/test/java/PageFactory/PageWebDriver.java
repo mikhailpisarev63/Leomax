@@ -27,8 +27,8 @@ public class PageWebDriver {
     @Step("Настройка драйвера")
     @BeforeClass
     public static void setUp() {
-//        LOGGER.info("Путь до драйвера");
-//        System.setProperty("webdriver.chrome.driver", "drivers\\yandexdriver.exe");
+        LOGGER.info("Путь до драйвера");
+        System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
         LOGGER.info("Иницилизация драйвера");
         chromeOptions = new ChromeOptions();
 //        Запуск без открытия окна true
