@@ -30,14 +30,14 @@ public class PageWebDriver {
         LOGGER.info("Путь до драйвера");
         System.setProperty("webdriver.chrome.driver", "drivers\\yandexdriver.exe");
         LOGGER.info("Иницилизация драйвера");
-        chromeOptions = new ChromeOptions();
+//        chromeOptions = new ChromeOptions();
 //        Запуск без открытия окна true
-        chromeOptions.setHeadless(true);
+//        chromeOptions.setHeadless(true);
 //        Установка размера окна
-        chromeOptions.addArguments("window-size=1920,1080");
-        driver = new ChromeDriver(chromeOptions);
+//        chromeOptions.addArguments("window-size=1920,1080");
+        driver = new ChromeDriver();
 //        Пока закомментировал, потому что эта настройка говорит открыть окно браузера
-//        driver.manage().window().maximize();
+        driver.manage().window().maximize();
         LOGGER.info("Тайминг в 5 секунд");
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         LOGGER.info("Получение URL");
@@ -55,8 +55,8 @@ public class PageWebDriver {
     @Step("Закрытие драйвера")
     @AfterClass
     public static void tearDown() throws IOException {
-        LOGGER.info("Сделать скриншот при упавшем тесте ");
-        pageFunction.takeScreenshot();
+//        LOGGER.info("Сделать скриншот при упавшем тесте ");
+//        pageFunction.takeScreenshot();
         LOGGER.info("Выходим из драйвера");
         driver.quit();
     }
