@@ -28,10 +28,8 @@ public class PageWebDriver {
     @BeforeClass
     public static void setUp() {
         LOGGER.info("Путь до драйвера");
-//        System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
-//        systemPropertyVariables
+        System.setProperty("webdriver.chrome.driver", "C:\\IdeaProjects\\Leomax\\drivers\\chromedriver.exe");
         LOGGER.info("Иницилизация драйвера");
-        driver = new ChromeDriver(chromeOptions);
         chromeOptions = new ChromeOptions();
 //        Запуск без открытия окна true
         chromeOptions.setHeadless(true);
@@ -57,8 +55,8 @@ public class PageWebDriver {
     @Step("Закрытие драйвера")
     @AfterClass
     public static void tearDown() throws IOException {
-//        LOGGER.info("Сделать скриншот при упавшем тесте ");
-//        pageFunction.takeScreenshot();
+        LOGGER.info("Сделать скриншот при упавшем тесте ");
+        pageFunction.takeScreenshot();
         LOGGER.info("Выходим из драйвера");
         driver.quit();
     }
