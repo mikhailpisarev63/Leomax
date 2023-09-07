@@ -1,0 +1,14 @@
+[INFO ] 2023-08-31 16:12:46,091 PageFactory.PageWebDriver:27.setUp()  - Путь до драйвера
+[INFO ] 2023-08-31 16:12:46,094 PageFactory.PageWebDriver:29.setUp()  - Иницилизация драйвера
+[INFO ] 2023-08-31 16:12:47,786 PageFactory.PageWebDriver:32.setUp()  - Тайминг в 5 секунд
+[INFO ] 2023-08-31 16:12:47,789 PageFactory.PageWebDriver:34.setUp()  - Получение URL
+[INFO ] 2023-08-31 16:12:54,330 PageFactory.PageFunction:59.modalClosing()  - Если [[ChromeDriver: chrome on windows (3d21411c95f30b97f4c6601d8422c933)] -> css selector: .modal-city-selection__closing] отображается, выполнить:
+[INFO ] 2023-08-31 16:12:54,366 PageFactory.PageHomeLeomax:135.modalClosing()  - Закрыть элемент
+[INFO ] 2023-08-31 16:12:57,443 PageFactory.PageHomeLeomax:125.topBanner()  - Клик на Баннер
+[INFO ] 2023-08-31 16:13:02,307 PageFactory.PageHomeLeomax:130.textCatalog()  - Получаем текст элемента: Тающая скидка! Сегодня - 20%
+[ERROR] 2023-08-31 16:13:02,322 LeomaxTest:38.stage02_topBanner()  - Проверка фактического текста с ожидаемым:  Снова в офиc = Тающая скидка! Сегодня - 20%
+[INFO ] 2023-08-31 16:13:02,335 PageFactory.PageHomeLeomax:130.textCatalog()  - Получаем текст элемента: Тающая скидка! Сегодня - 20%
+[INFO ] 2023-08-31 16:13:02,348 PageFactory.PageWebDriver:49.tearDown()  - Сделать скриншот при упавшем тесте
+[INFO ] 2023-08-31 16:13:02,582 PageFactory.PageWebDriver:51.tearDown()  - Выходим из драйвера
+[INFO ] 2023-08-31 16:13:02,955 PageFactory.PageHomeLeomax:214.containerCity()  - Клик по элементу
+[INFO ] 2023-08-31 16:13:02,963 PageFactory.PageWebDriver:49.tearDown()  - Сделать скриншот при упавшем тесте

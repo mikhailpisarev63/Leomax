@@ -1,0 +1,16 @@
+[INFO ] 2023-09-04 17:34:47,896 PageWebDriver:30.setUp()  - Путь до драйвера
+[INFO ] 2023-09-04 17:34:47,900 PageWebDriver:32.setUp()  - Иницилизация драйвера
+[INFO ] 2023-09-04 17:34:50,567 PageWebDriver:41.setUp()  - Тайминг в 5 секунд
+[INFO ] 2023-09-04 17:34:50,575 PageWebDriver:43.setUp()  - Получение URL
+[INFO ] 2023-09-04 17:34:54,481 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (3417e9f02f98f82158443651e0d7672b)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-04 17:34:54,518 PageHomeLeomax:137.modalClosing()  - Закрыть элемент
+[INFO ] 2023-09-04 17:34:58,166 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (3417e9f02f98f82158443651e0d7672b)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-04 17:34:58,183 PageHomeLeomax:127.topBanner()  - Клик на Баннер
+[INFO ] 2023-09-04 17:35:01,434 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Ликвидация
+[ERROR] 2023-09-04 17:35:01,458 LeomaxTest:43.stage02_topBanner()  - Проверка фактического текста с ожидаемым:  Ликвидаци = Ликвидация
+[INFO ] 2023-09-04 17:35:01,474 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Ликвидация
+[INFO ] 2023-09-04 17:35:02,005 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (3417e9f02f98f82158443651e0d7672b)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-04 17:35:02,019 PageHomeLeomax:153.actionLink()  - Клик по элементу
+[INFO ] 2023-09-04 17:35:02,903 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-04 17:35:03,803 PageWebDriver:58.tearDown()  - Сделать скриншот при упавшем тесте 
+[INFO ] 2023-09-04 17:35:04,000 PageWebDriver:60.tearDown()  - Выходим из драйвера

@@ -1,0 +1,20 @@
+[INFO ] 2023-08-30 17:27:00,767 PageFactory.PageWebDriver:26.setUp()  - Путь до драйвера
+[INFO ] 2023-08-30 17:27:00,776 PageFactory.PageWebDriver:28.setUp()  - Иницилизация драйвера
+[INFO ] 2023-08-30 17:27:03,706 PageFactory.PageWebDriver:31.setUp()  - Тайминг в 5 секунд
+[INFO ] 2023-08-30 17:27:03,716 PageFactory.PageWebDriver:33.setUp()  - Получение URL
+[INFO ] 2023-08-30 17:27:08,903 PageFactory.PageFunction:51.modalClosing()  - Если [[ChromeDriver: chrome on windows (651d9f5f27377ba2f67a3437968150f9)] -> css selector: .modal-city-selection__closing] отображается, выполнить:
+[INFO ] 2023-08-30 17:27:09,129 PageFactory.PageHomeLeomax:133.modalClosing()  - Закрыть элемент
+[INFO ] 2023-08-30 17:27:12,342 PageFactory.PageFunction:51.modalClosing()  - Если [[ChromeDriver: chrome on windows (651d9f5f27377ba2f67a3437968150f9)] -> css selector: .modal-city-selection__closing] отображается, выполнить:
+[INFO ] 2023-08-30 17:27:12,377 PageFactory.PageHomeLeomax:123.topBanner()  - Клик на Баннер
+[INFO ] 2023-08-30 17:27:16,157 PageFactory.PageHomeLeomax:128.textCatalog()  - Получаем текст элемента: Снова в офис
+[ERROR] 2023-08-30 17:27:16,173 LeomaxTest:38.stage02_topBanner()  - Проверка фактического текста с ожидаемым:  Снова в офис = Снова в офис
+[INFO ] 2023-08-30 17:27:16,190 PageFactory.PageHomeLeomax:128.textCatalog()  - Получаем текст элемента: Снова в офис
+[INFO ] 2023-08-30 17:27:16,208 PageFactory.PageHomeLeomax:144.headerLogo()  - Клик по элементу
+[INFO ] 2023-08-30 17:27:18,443 PageFactory.PageFunction:51.modalClosing()  - Если [[ChromeDriver: chrome on windows (651d9f5f27377ba2f67a3437968150f9)] -> css selector: .modal-city-selection__closing] отображается, выполнить:
+[INFO ] 2023-08-30 17:27:18,664 PageFactory.PageHomeLeomax:149.actionLink()  - Клик по элементу
+[INFO ] 2023-08-30 17:27:21,313 PageFactory.PageHomeLeomax:144.headerLogo()  - Клик по элементу
+[INFO ] 2023-08-30 17:27:25,444 PageFactory.PageFunction:51.modalClosing()  - Если [[ChromeDriver: chrome on windows (651d9f5f27377ba2f67a3437968150f9)] -> css selector: .modal-city-selection__closing] отображается, выполнить:
+[INFO ] 2023-08-30 17:27:26,234 PageFactory.PageHomeLeomax:155.linkToBrands()  - Клик по элементу
+[INFO ] 2023-08-30 17:27:27,970 PageFactory.PageHomeLeomax:144.headerLogo()  - Клик по элементу
+[INFO ] 2023-08-30 17:27:30,034 PageFactory.PageFunction:51.modalClosing()  - Если [[ChromeDriver: chrome on windows (651d9f5f27377ba2f67a3437968150f9)] -> css selector: .modal-city-selection__closing] отображается, выполнить:
+[INFO ] 2023-08-30 17:27:30,897 PageFactory.PageHomeLeomax:161.liveBroadcast()  - Клик по элементу

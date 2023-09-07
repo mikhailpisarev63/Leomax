@@ -1,0 +1,72 @@
+[INFO ] 2023-08-29 22:06:03,764 PageFactory.PageWebDriver:25.setUp()  - Путь до драйвера
+[INFO ] 2023-08-29 22:06:03,767 PageFactory.PageWebDriver:27.setUp()  - Иницилизация драйвера
+[DEBUG] 2023-08-29 22:06:04,213 InternalLoggerFactory:76.useLog4J2LoggerFactory()  - Using Log4J2 as the default logging framework
+[DEBUG] 2023-08-29 22:06:04,232 ResourceLeakDetector:129.<clinit>()  - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-08-29 22:06:04,233 ResourceLeakDetector:130.<clinit>()  - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-08-29 22:06:04,246 ResourceLeakDetectorFactory:196.newResourceLeakDetector()  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@434514d8
+[DEBUG] 2023-08-29 22:06:04,339 PlatformDependent0:496.explicitNoUnsafeCause0()  - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-08-29 22:06:04,385 PlatformDependent0:1000.javaVersion0()  - Java version: 20
+[DEBUG] 2023-08-29 22:06:04,393 PlatformDependent0:137.<clinit>()  - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-08-29 22:06:04,396 PlatformDependent0:161.<clinit>()  - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-08-29 22:06:04,397 PlatformDependent0:193.<clinit>()  - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-08-29 22:06:04,400 PlatformDependent0:236.<clinit>()  - java.nio.Buffer.address: available
+[DEBUG] 2023-08-29 22:06:04,402 PlatformDependent0:320.<clinit>()  - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-08-29 22:06:04,404 PlatformDependent0:385.<clinit>()  - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-08-29 22:06:04,407 PlatformDependent0:452.<clinit>()  - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @4c6e276e
+[DEBUG] 2023-08-29 22:06:04,410 PlatformDependent0:482.<clinit>()  - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-08-29 22:06:04,410 PlatformDependent:1159.unsafeUnavailabilityCause0()  - sun.misc.Unsafe: available
+[DEBUG] 2023-08-29 22:06:04,411 PlatformDependent:1270.estimateMaxDirectMemory()  - maxDirectMemory: 2071986176 bytes (maybe)
+[DEBUG] 2023-08-29 22:06:04,412 PlatformDependent:1289.tmpdir0()  - -Dio.netty.tmpdir: C:\Users\user\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-08-29 22:06:04,412 PlatformDependent:1368.bitMode0()  - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-08-29 22:06:04,412 PlatformDependent:1119.isWindows0()  - Platform: Windows
+[DEBUG] 2023-08-29 22:06:04,415 PlatformDependent:178.<clinit>()  - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-08-29 22:06:04,415 PlatformDependent:185.<clinit>()  - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-08-29 22:06:04,419 CleanerJava9:71.<clinit>()  - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-08-29 22:06:04,419 PlatformDependent:205.<clinit>()  - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-08-29 22:06:04,454 PlatformDependent:1010.<clinit>()  - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-08-29 22:06:04,547 InternalThreadLocalMap:100.<clinit>()  - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-08-29 22:06:04,550 InternalThreadLocalMap:101.<clinit>()  - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-08-29 22:06:04,941 JdkSslContext:83.<clinit>()  - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-08-29 22:06:04,943 JdkSslContext:84.<clinit>()  - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-08-29 22:06:05,004 GlobalEventExecutor:53.<clinit>()  - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[DEBUG] 2023-08-29 22:06:05,052 MultithreadEventLoopGroup:44.<clinit>()  - -Dio.netty.eventLoopThreads: 32
+[DEBUG] 2023-08-29 22:06:05,079 NioEventLoop:110.<clinit>()  - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-08-29 22:06:05,080 NioEventLoop:111.<clinit>()  - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-08-29 22:06:05,257 PooledByteBufAllocator:157.<clinit>()  - -Dio.netty.allocator.numHeapArenas: 32
+[DEBUG] 2023-08-29 22:06:05,258 PooledByteBufAllocator:158.<clinit>()  - -Dio.netty.allocator.numDirectArenas: 32
+[DEBUG] 2023-08-29 22:06:05,258 PooledByteBufAllocator:160.<clinit>()  - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-08-29 22:06:05,259 PooledByteBufAllocator:165.<clinit>()  - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-08-29 22:06:05,259 PooledByteBufAllocator:169.<clinit>()  - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-08-29 22:06:05,260 PooledByteBufAllocator:170.<clinit>()  - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-08-29 22:06:05,261 PooledByteBufAllocator:171.<clinit>()  - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-08-29 22:06:05,261 PooledByteBufAllocator:172.<clinit>()  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-08-29 22:06:05,261 PooledByteBufAllocator:173.<clinit>()  - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-08-29 22:06:05,261 PooledByteBufAllocator:174.<clinit>()  - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-08-29 22:06:05,262 PooledByteBufAllocator:175.<clinit>()  - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-08-29 22:06:05,262 PooledByteBufAllocator:176.<clinit>()  - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-08-29 22:06:05,288 ByteBufUtil:88.<clinit>()  - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-08-29 22:06:05,288 ByteBufUtil:97.<clinit>()  - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-08-29 22:06:05,288 ByteBufUtil:100.<clinit>()  - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-08-29 22:06:05,793 DefaultChannelId:79.<clinit>()  - -Dio.netty.processId: 13292 (auto-detected)
+[DEBUG] 2023-08-29 22:06:05,796 NetUtil:148.<clinit>()  - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-08-29 22:06:05,796 NetUtil:149.<clinit>()  - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-08-29 22:06:05,807 NetUtilInitializations:145.determineLoopback()  - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-08-29 22:06:05,809 NetUtil:206.run()  - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-08-29 22:06:05,821 DefaultChannelId:101.<clinit>()  - -Dio.netty.machineId: 70:1a:b8:ff:fe:e5:09:3e (auto-detected)
+[DEBUG] 2023-08-29 22:06:05,905 AbstractByteBuf:63.<clinit>()  - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-08-29 22:06:05,905 AbstractByteBuf:64.<clinit>()  - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-08-29 22:06:05,907 ResourceLeakDetectorFactory:196.newResourceLeakDetector()  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@65b3123
+[DEBUG] 2023-08-29 22:06:05,958 Recycler:96.<clinit>()  - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-08-29 22:06:05,958 Recycler:97.<clinit>()  - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-08-29 22:06:05,958 Recycler:98.<clinit>()  - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-08-29 22:06:05,958 Recycler:99.<clinit>()  - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-08-29 22:06:05,959 Recycler:100.<clinit>()  - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[DEBUG] 2023-08-29 22:06:06,690 Brotli:38.<clinit>()  - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-08-29 22:06:06,870 ThreadLocalRandom:214.newSeed()  - -Dio.netty.initialSeedUniquifier: 0x49f349f1bda3efb6
+[INFO ] 2023-08-29 22:06:07,084 PageFactory.PageWebDriver:30.setUp()  - Тайминг в 5 секунд
+[INFO ] 2023-08-29 22:06:07,090 PageFactory.PageWebDriver:32.setUp()  - Получение URL
+[INFO ] 2023-08-29 22:06:10,297 PageFactory.PageFunction:44.modalClosing()  - Если [[ChromeDriver: chrome on windows (14e8ca19d22a7213a606bcd563283599)] -> css selector: .modal-city-selection__closing] отображается, выполнить:
+[INFO ] 2023-08-29 22:06:10,796 PageFactory.PageHomeLeomax:167.modalClosing()  - Клик по элементу: [[ChromeDriver: chrome on windows (14e8ca19d22a7213a606bcd563283599)] -> css selector: .modal-city-selection__closing]
+[INFO ] 2023-08-29 22:06:14,065 PageFactory.PageHomeLeomax:160.topBanner()  - Клик на Баннер
+[INFO ] 2023-08-29 22:06:15,994 PageFactory.PageWebDriver:46.tearDown()  - Сделать скриншот при упавшем тесте
+[INFO ] 2023-08-29 22:06:16,280 PageFactory.PageWebDriver:48.tearDown()  - Выходим из драйвера
