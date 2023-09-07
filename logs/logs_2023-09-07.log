@@ -1,3 +1,13 @@
-[INFO ] 2023-09-07 15:41:51,223 PageWebDriver:30.setUp()  - Путь до драйвера
-[INFO ] 2023-09-07 15:41:51,229 PageWebDriver:32.setUp()  - Иницилизация драйвера
-[INFO ] 2023-09-07 15:41:51,312 PageWebDriver:59.tearDown()  - Сделать скриншот при упавшем тесте 
+[INFO ] 2023-09-07 15:42:39,254 PageWebDriver:30.setUp()  - Путь до драйвера
+[INFO ] 2023-09-07 15:42:39,259 PageWebDriver:32.setUp()  - Иницилизация драйвера
+[INFO ] 2023-09-07 15:42:41,942 PageWebDriver:41.setUp()  - Тайминг в 5 секунд
+[INFO ] 2023-09-07 15:42:41,951 PageWebDriver:43.setUp()  - Получение URL
+[INFO ] 2023-09-07 15:42:47,661 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (b49f46abc9c499bc28453b64fc5927a6)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 15:42:47,685 PageHomeLeomax:137.modalClosing()  - Закрыть элемент
+[INFO ] 2023-09-07 15:42:50,746 PageHomeLeomax:127.topBanner()  - Клик на Баннер
+[INFO ] 2023-09-07 15:42:52,450 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Тренды осени 2023. Оверсайз
+[ERROR] 2023-09-07 15:42:52,461 LeomaxTest:43.stage02_topBanner()  - Проверка фактического текста с ожидаемым:  Тренды осени 2023. Оверсайз = Тренды осени 2023. Оверсайз
+[INFO ] 2023-09-07 15:42:52,470 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Тренды осени 2023. Оверсайз
+[INFO ] 2023-09-07 15:42:52,479 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 15:42:53,304 PageWebDriver:58.tearDown()  - Сделать скриншот при упавшем тесте 
+[INFO ] 2023-09-07 15:42:53,502 PageWebDriver:60.tearDown()  - Выходим из драйвера

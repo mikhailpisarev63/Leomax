@@ -31,6 +31,7 @@ public class PageWebDriver {
         System.setProperty("webdriver.chrome.driver", "C:\\IdeaProjects\\Leomax\\drivers\\chromedriver.exe");
         LOGGER.info("Иницилизация драйвера");
         chromeOptions = new ChromeOptions();
+        chromeOptions.setBinary("C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
 //        Запуск без открытия окна true
         chromeOptions.setHeadless(true);
 //        Установка размера окна
