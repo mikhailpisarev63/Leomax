@@ -30,6 +30,7 @@ public class PageWebDriver {
         LOGGER.info("Путь до драйвера");
         System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
         LOGGER.info("Иницилизация драйвера");
+        driver = new ChromeDriver(chromeOptions);
         chromeOptions = new ChromeOptions();
 //        Запуск без открытия окна true
         chromeOptions.setHeadless(true);
