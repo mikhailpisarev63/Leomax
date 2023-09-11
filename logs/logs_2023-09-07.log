@@ -1,250 +1,245 @@
-[INFO ] 2023-09-07 17:36:38,059 PageWebDriver:30.setUp()  - Путь до драйвера
-[INFO ] 2023-09-07 17:36:38,067 PageWebDriver:32.setUp()  - Иницилизация драйвера
-[INFO ] 2023-09-07 17:36:42,051 PageWebDriver:42.setUp()  - Тайминг в 5 секунд
-[INFO ] 2023-09-07 17:36:42,067 PageWebDriver:44.setUp()  - Получение URL
-[INFO ] 2023-09-07 17:36:50,566 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:36:50,634 PageHomeLeomax:137.modalClosing()  - Закрыть элемент
-[INFO ] 2023-09-07 17:36:54,661 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:36:54,753 PageHomeLeomax:127.topBanner()  - Клик на Баннер
-[INFO ] 2023-09-07 17:36:59,113 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Тренды осени 2023. Оверсайз
-[ERROR] 2023-09-07 17:36:59,242 LeomaxTest:43.stage02_topBanner()  - Проверка фактического текста с ожидаемым:  Тренды осени 2023. Оверсайз = Тренды осени 2023. Оверсайз
-[INFO ] 2023-09-07 17:36:59,286 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Тренды осени 2023. Оверсайз
-[INFO ] 2023-09-07 17:36:59,318 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:37:01,046 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:37:01,113 PageHomeLeomax:153.actionLink()  - Клик по элементу
-[INFO ] 2023-09-07 17:37:02,767 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:37:04,297 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:37:04,365 PageHomeLeomax:159.linkToBrands()  - Клик по элементу
-[INFO ] 2023-09-07 17:37:05,965 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:37:08,376 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:37:08,432 PageHomeLeomax:165.liveBroadcast()  - Клик по элементу
-[INFO ] 2023-09-07 17:37:50,561 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:37:53,286 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:37:53,341 PageHomeLeomax:171.productsFromAdvertising()  - Клик по элементу
-[INFO ] 2023-09-07 17:37:54,957 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:37:56,812 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:37:56,857 PageHomeLeomax:177.linkLiquidation()  - Клик по элементу
-[INFO ] 2023-09-07 17:37:58,341 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:37:59,295 PageHomeLeomax:183.loginLink()  - Клик по элементу
-[INFO ] 2023-09-07 17:37:59,777 PageFunction:48.refresh()  - Перезагрузка страницы 
-[INFO ] 2023-09-07 17:38:01,869 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:38:01,917 PageHomeLeomax:188.clickFavourites()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:03,327 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:05,713 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:38:05,797 PageHomeLeomax:194.linkBasket()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:07,642 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:10,126 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:38:10,445 PageHomeLeomax:200.searchInput()  - Вносим текст: Жидкая резина в поле
-[INFO ] 2023-09-07 17:38:10,785 PageHomeLeomax:211.searchButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:13,957 PageHomeLeomax:206.textSearch()  - Получаем текст элемента: Жидкая резина "Фикс Про 3 в 1"
-[ERROR] 2023-09-07 17:38:14,030 LeomaxTest:132.stage11_searchGroup()  - Проверка фактического текста с ожидаемым:  Жидкая резина "Фикс Про 3 в 1" = Жидкая резина "Фикс Про 3 в 1"
-[INFO ] 2023-09-07 17:38:14,098 PageHomeLeomax:206.textSearch()  - Получаем текст элемента: Жидкая резина "Фикс Про 3 в 1"
-[INFO ] 2023-09-07 17:38:14,161 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:15,361 PageHomeLeomax:216.containerCity()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:16,061 PageHomeLeomax:221.modalText()  - Получаем текст элемента: Ваш регион
-[ERROR] 2023-09-07 17:38:16,133 LeomaxTest:145.stage12_containerCity()  - Проверка фактического текста с ожидаемым:  Ваш регион = Ваш регион
-[INFO ] 2023-09-07 17:38:16,173 PageHomeLeomax:221.modalText()  - Получаем текст элемента: Ваш регион
-[INFO ] 2023-09-07 17:38:16,209 PageHomeLeomax:216.containerCity()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:16,757 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:38:16,789 PageHomeLeomax:226.sliderSwiper()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:19,834 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:22,057 PageHomeLeomax:232.slickDotsOne()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:22,379 PageHomeLeomax:238.slickDotsTwo()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:22,693 PageHomeLeomax:244.slickDotsThree()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:22,914 PageHomeLeomax:250.slickDotsFour()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:23,149 PageHomeLeomax:256.slickDotsFive()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:23,313 PageHomeLeomax:262.slickDotsSix()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:23,407 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:24,713 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:38:24,989 PageHomeLeomax:277.slickDotsRightOne()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:25,273 PageHomeLeomax:283.slickDotsRightTwo()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:25,359 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:38:27,560 PageHomeLeomax:289.linkViewAll()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:07,985 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:10,243 PageHomeLeomax:301.goodListLeftSwiper()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:10,421 PageHomeLeomax:295.goodListRightSwiper()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:11,689 PageHomeLeomax:307.actionBannersOne()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:13,523 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Здоровое питание
-[INFO ] 2023-09-07 17:39:13,567 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Здоровое питание
-[ERROR] 2023-09-07 17:39:13,583 LeomaxTest:207.stage18_actionBannersOne()  - Проверка фактического текста с ожидаемым:  Здоровое питание = Здоровое питание
-[INFO ] 2023-09-07 17:39:13,603 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Здоровое питание
-[INFO ] 2023-09-07 17:39:13,627 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:15,814 PageHomeLeomax:313.actionBannersTwo()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:18,476 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Косметика и уход
-[INFO ] 2023-09-07 17:39:18,532 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Косметика и уход
-[ERROR] 2023-09-07 17:39:18,557 LeomaxTest:222.stage19_actionBannerTwo()  - Проверка фактического текста с ожидаемым:  Косметика и уход = Косметика и уход
-[INFO ] 2023-09-07 17:39:18,589 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Косметика и уход
-[INFO ] 2023-09-07 17:39:18,629 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:20,174 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:39:20,202 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:20,297 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:22,378 PageHomeLeomax:325.womenJacketsCatalog()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:24,253 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Куртки женские
-[INFO ] 2023-09-07 17:39:24,540 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Куртки женские
-[ERROR] 2023-09-07 17:39:24,564 LeomaxTest:236.stage20_catalogMenuWomenClothing()  - Проверка фактического текста с ожидаемым:  Куртки женские = Куртки женские
-[INFO ] 2023-09-07 17:39:24,584 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Куртки женские
-[INFO ] 2023-09-07 17:39:24,604 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:26,209 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:39:26,297 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:26,453 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:28,083 PageHomeLeomax:331.outerwearCatalog()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:31,206 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Верхняя одежда
-[INFO ] 2023-09-07 17:39:31,265 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Верхняя одежда
-[ERROR] 2023-09-07 17:39:31,285 LeomaxTest:251.stage21_outerwearCatalog()  - Проверка фактического текста с ожидаемым:  Верхняя одежда = Верхняя одежда
-[INFO ] 2023-09-07 17:39:31,317 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Верхняя одежда
-[INFO ] 2023-09-07 17:39:31,349 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:32,946 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:39:33,009 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:33,184 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:34,325 PageHomeLeomax:337.blousesAndTunics()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:37,433 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Блузы и туники
-[INFO ] 2023-09-07 17:39:37,867 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Блузы и туники
-[ERROR] 2023-09-07 17:39:37,903 LeomaxTest:266.stage22_blousesAndTunics()  - Проверка фактического текста с ожидаемым:  Блузы и туники = Блузы и туники
-[INFO ] 2023-09-07 17:39:37,935 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Блузы и туники
-[INFO ] 2023-09-07 17:39:37,971 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:39,315 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:39:39,458 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:39,634 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:41,528 PageHomeLeomax:349.buttonShowAll()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:41,965 PageHomeLeomax:343.dresses()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:44,702 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Модные платья 2023
-[INFO ] 2023-09-07 17:39:44,749 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Модные платья 2023
-[ERROR] 2023-09-07 17:39:44,773 LeomaxTest:280.stage23_dresses()  - Проверка фактического текста с ожидаемым:  Модные платья 2023 = Модные платья 2023
-[INFO ] 2023-09-07 17:39:45,040 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Модные платья 2023
-[INFO ] 2023-09-07 17:39:45,068 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:46,895 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:39:47,021 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:47,313 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:49,086 PageHomeLeomax:349.buttonShowAll()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:49,402 PageHomeLeomax:355.womenTrousers()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:51,837 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Брюки женские
-[INFO ] 2023-09-07 17:39:52,205 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Брюки женские
-[ERROR] 2023-09-07 17:39:52,233 LeomaxTest:294.stage24_womenTrousers()  - Проверка фактического текста с ожидаемым:  Брюки женские = Брюки женские
-[INFO ] 2023-09-07 17:39:52,257 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Брюки женские
-[INFO ] 2023-09-07 17:39:52,285 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:54,437 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:39:54,489 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:54,591 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:56,161 PageHomeLeomax:349.buttonShowAll()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:56,453 PageHomeLeomax:361.thermalUnderwear()  - Клик по элементу
-[INFO ] 2023-09-07 17:39:58,653 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Термобелье
-[INFO ] 2023-09-07 17:39:59,030 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Термобелье
-[ERROR] 2023-09-07 17:39:59,058 LeomaxTest:308.stage25_thermalUnderwear()  - Проверка фактического текста с ожидаемым:  Термобелье = Термобелье
-[INFO ] 2023-09-07 17:39:59,098 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Термобелье
-[INFO ] 2023-09-07 17:39:59,130 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:00,829 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:40:00,889 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:01,017 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:03,068 PageHomeLeomax:349.buttonShowAll()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:03,469 PageFunction:75.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> xpath: //a[text()=' Леггинсы    ']]
-[INFO ] 2023-09-07 17:40:03,640 PageHomeLeomax:367.leggings()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:05,346 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Леггинсы
-[INFO ] 2023-09-07 17:40:05,573 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Леггинсы
-[ERROR] 2023-09-07 17:40:05,713 LeomaxTest:324.stage26_leggings()  - Проверка фактического текста с ожидаемым:  Леггинсы = Леггинсы
-[INFO ] 2023-09-07 17:40:05,765 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Леггинсы
-[INFO ] 2023-09-07 17:40:05,805 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:07,646 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:40:07,674 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:07,818 PageFunction:75.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .menu-desktop__col-level-1 li.menu-desktop__item:nth-of-type(2)]
-[INFO ] 2023-09-07 17:40:07,990 PageHomeLeomax:373.menJacketsCatalog()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:09,669 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Мужские куртки
-[INFO ] 2023-09-07 17:40:09,705 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Мужские куртки
-[ERROR] 2023-09-07 17:40:09,921 LeomaxTest:340.stage27_catalogMenuMenClothing()  - Проверка фактического текста с ожидаемым:  Мужские куртки = Мужские куртки
-[INFO ] 2023-09-07 17:40:09,997 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Мужские куртки
-[INFO ] 2023-09-07 17:40:10,013 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:11,974 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:40:12,026 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:12,201 PageFunction:75.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .menu-desktop__col-level-1 li.menu-desktop__item:nth-of-type(5)]
-[INFO ] 2023-09-07 17:40:12,371 PageFunction:78.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> xpath: //a[text()='Хобби и аксессуары']]
-[INFO ] 2023-09-07 17:40:12,538 PageHomeLeomax:379.hobbiesAndAccessories()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:14,597 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Хобби и аксессуары
-[INFO ] 2023-09-07 17:40:14,955 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Хобби и аксессуары
-[ERROR] 2023-09-07 17:40:14,975 LeomaxTest:357.stage28_householdGoods()  - Проверка фактического текста с ожидаемым:  Хобби и аксессуары = Хобби и аксессуары
-[INFO ] 2023-09-07 17:40:15,003 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Хобби и аксессуары
-[INFO ] 2023-09-07 17:40:15,039 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:16,746 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:40:16,796 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:17,025 PageFunction:75.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .menu-desktop__col-level-1 li.menu-desktop__item:nth-of-type(5)]
-[INFO ] 2023-09-07 17:40:17,184 PageFunction:78.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> xpath: //a[text()='Хобби и аксессуары']]
-[INFO ] 2023-09-07 17:40:17,342 PageFunction:82.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> xpath: (//a[text()='Рыбалка и туризм'])[2]]
-[INFO ] 2023-09-07 17:40:17,501 PageHomeLeomax:385.fishingAndTourism()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:19,650 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Рыбалка и туризм
-[INFO ] 2023-09-07 17:40:19,849 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Рыбалка и туризм
-[ERROR] 2023-09-07 17:40:19,889 LeomaxTest:374.stage29_householdGoodsTwo()  - Проверка фактического текста с ожидаемым:  Рыбалка и туризм = Рыбалка и туризм
-[INFO ] 2023-09-07 17:40:19,917 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Рыбалка и туризм
-[INFO ] 2023-09-07 17:40:19,945 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:21,779 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:40:21,826 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:21,996 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:25,057 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
-[ERROR] 2023-09-07 17:40:25,109 LeomaxTest:389.stage30_linkNewnessCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Женская одежда = Женская одежда
-[INFO ] 2023-09-07 17:40:25,125 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
-[INFO ] 2023-09-07 17:40:25,422 PageWomenClothing:109.linkDiscount()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:25,649 PageWomenClothing:104.linkNewness()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:26,403 PageHomeLeomax:148.headerLogo()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:30,356 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:40:30,404 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:30,508 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:32,781 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
-[ERROR] 2023-09-07 17:40:33,053 LeomaxTest:407.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Женская одежда = Женская одежда
-[INFO ] 2023-09-07 17:40:33,077 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
-[INFO ] 2023-09-07 17:40:33,113 PageWomenClothing:114.jacketsCatalogWomenClothing()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:35,105 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
-[ERROR] 2023-09-07 17:40:35,133 LeomaxTest:411.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Куртки женские = Куртки женские
-[INFO ] 2023-09-07 17:40:35,173 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
-[INFO ] 2023-09-07 17:40:35,729 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:40:35,746 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:35,822 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:37,965 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
-[ERROR] 2023-09-07 17:40:38,147 LeomaxTest:407.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Женская одежда = Женская одежда
-[INFO ] 2023-09-07 17:40:38,179 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
-[INFO ] 2023-09-07 17:40:38,191 PageWomenClothing:114.jacketsCatalogWomenClothing()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:40,610 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
-[ERROR] 2023-09-07 17:40:40,701 LeomaxTest:411.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Куртки женские = Куртки женские
-[INFO ] 2023-09-07 17:40:40,733 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
-[INFO ] 2023-09-07 17:40:40,773 PageFunction:106.actionSliderOffset()  - Cмещение элемента по заданным координатам x,y [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: div[id = priceSlider] div.ui-rangeSlider-rightLabel]-1000
-[INFO ] 2023-09-07 17:40:41,440 PageWomenClothing:124.clickButtonViewProducts()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:41,745 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:40:41,765 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:41,823 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:43,235 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
-[ERROR] 2023-09-07 17:40:43,279 LeomaxTest:407.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Женская одежда = Женская одежда
-[INFO ] 2023-09-07 17:40:43,307 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
-[INFO ] 2023-09-07 17:40:43,524 PageWomenClothing:114.jacketsCatalogWomenClothing()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:45,157 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
-[ERROR] 2023-09-07 17:40:45,278 LeomaxTest:411.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Куртки женские = Куртки женские
-[INFO ] 2023-09-07 17:40:45,358 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
-[INFO ] 2023-09-07 17:40:45,406 PageFunction:106.actionSliderOffset()  - Cмещение элемента по заданным координатам x,y [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: div[id = priceSlider] div.ui-rangeSlider-leftLabel]800
-[INFO ] 2023-09-07 17:40:46,119 PageWomenClothing:124.clickButtonViewProducts()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:46,641 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:40:46,666 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:46,738 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:48,873 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
-[ERROR] 2023-09-07 17:40:48,905 LeomaxTest:407.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Женская одежда = Женская одежда
-[INFO ] 2023-09-07 17:40:48,929 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
-[INFO ] 2023-09-07 17:40:48,957 PageWomenClothing:114.jacketsCatalogWomenClothing()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:50,820 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
-[ERROR] 2023-09-07 17:40:50,856 LeomaxTest:411.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Куртки женские = Куртки женские
-[INFO ] 2023-09-07 17:40:50,882 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
-[INFO ] 2023-09-07 17:40:51,088 PageFunction:106.actionSliderOffset()  - Cмещение элемента по заданным координатам x,y [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: div[id = priceSlider] div.ui-rangeSlider-leftLabel]100
-[INFO ] 2023-09-07 17:40:53,117 PageFunction:113.actionSliderOffset()  - Cмещение элемента по заданным координатам x,y работая с двумя элементами: [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: div[id = discountSlider] div.ui-rangeSlider-leftLabel] 10 0 и [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: div[id = discountSlider] div.ui-rangeSlider-rightLabel] -80 0
-[INFO ] 2023-09-07 17:40:54,276 PageWomenClothing:129.buttonFiltersDemonstrate()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:57,489 PageWomenClothing:134.textFiltersSearch()  - Получаем текст элемента: Найдено 0 товаров
-[ERROR] 2023-09-07 17:40:57,521 LeomaxTest:455.stage34_fullFilterOfTheProductCatalogWomen()  - Проверка фактического текста с ожидаемым:  Найдено 0 товаров = Найдено 0 товаров
-[INFO ] 2023-09-07 17:40:57,553 PageWomenClothing:134.textFiltersSearch()  - Получаем текст элемента: Найдено 0 товаров
-[INFO ] 2023-09-07 17:40:57,623 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:40:57,659 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:57,781 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
-[INFO ] 2023-09-07 17:40:59,553 PageFunction:75.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: div.good-item:nth-of-type(1) figure.good_hovered]
-[INFO ] 2023-09-07 17:40:59,831 PageWomenClothing:139.buttonBasketCatalog()  - Клик по элементу
-[INFO ] 2023-09-07 17:41:00,049 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
-[INFO ] 2023-09-07 17:41:00,071 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:41:00,139 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
-[INFO ] 2023-09-07 17:41:01,837 PageFunction:75.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: div.good-item:nth-of-type(1) figure.good_hovered]
-[INFO ] 2023-09-07 17:41:02,013 PageWomenClothing:139.buttonBasketCatalog()  - Клик по элементу
-[INFO ] 2023-09-07 17:41:02,326 PageHomeLeomax:142.catalogButton()  - Клик по элементу
-[INFO ] 2023-09-07 17:41:02,413 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
-[INFO ] 2023-09-07 17:41:04,478 PageFunction:75.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (14ef2bd907b9dec8d7f556e7d04aa150)] -> css selector: div.good-item:nth-of-type(1) figure.good_hovered]
-[INFO ] 2023-09-07 17:41:04,616 PageWomenClothing:139.buttonBasketCatalog()  - Клик по элементу
-[INFO ] 2023-09-07 17:41:04,950 PageWebDriver:59.tearDown()  - Сделать скриншот при упавшем тесте 
-[INFO ] 2023-09-07 17:41:05,222 PageWebDriver:61.tearDown()  - Выходим из драйвера
+[INFO ] 2023-09-07 17:41:35,068 PageWebDriver:30.setUp()  - Путь до драйвера
+[INFO ] 2023-09-07 17:41:35,072 PageWebDriver:32.setUp()  - Иницилизация драйвера
+[INFO ] 2023-09-07 17:41:38,914 PageWebDriver:42.setUp()  - Тайминг в 5 секунд
+[INFO ] 2023-09-07 17:41:38,930 PageWebDriver:44.setUp()  - Получение URL
+[INFO ] 2023-09-07 17:41:43,261 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:41:43,365 PageHomeLeomax:137.modalClosing()  - Закрыть элемент
+[INFO ] 2023-09-07 17:41:47,431 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:41:47,520 PageHomeLeomax:127.topBanner()  - Клик на Баннер
+[INFO ] 2023-09-07 17:41:50,492 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Тренды осени 2023. Оверсайз
+[ERROR] 2023-09-07 17:41:50,765 LeomaxTest:43.stage02_topBanner()  - Проверка фактического текста с ожидаемым:  Тренды осени 2023. Оверсайз = Тренды осени 2023. Оверсайз
+[INFO ] 2023-09-07 17:41:50,860 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Тренды осени 2023. Оверсайз
+[INFO ] 2023-09-07 17:41:50,888 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:41:52,977 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:41:53,021 PageHomeLeomax:153.actionLink()  - Клик по элементу
+[INFO ] 2023-09-07 17:41:54,686 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:41:56,768 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:41:57,122 PageHomeLeomax:159.linkToBrands()  - Клик по элементу
+[INFO ] 2023-09-07 17:41:58,707 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:42:00,949 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:42:00,993 PageHomeLeomax:165.liveBroadcast()  - Клик по элементу
+[INFO ] 2023-09-07 17:42:42,177 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:42:45,168 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:42:45,200 PageHomeLeomax:171.productsFromAdvertising()  - Клик по элементу
+[INFO ] 2023-09-07 17:42:47,959 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:42:50,166 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:42:50,198 PageHomeLeomax:177.linkLiquidation()  - Клик по элементу
+[INFO ] 2023-09-07 17:42:52,249 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:42:54,169 PageHomeLeomax:183.loginLink()  - Клик по элементу
+[INFO ] 2023-09-07 17:42:54,953 PageFunction:48.refresh()  - Перезагрузка страницы 
+[INFO ] 2023-09-07 17:42:56,809 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:42:56,865 PageHomeLeomax:188.clickFavourites()  - Клик по элементу
+[INFO ] 2023-09-07 17:42:58,306 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:01,815 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:43:01,874 PageHomeLeomax:194.linkBasket()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:03,546 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:06,349 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:43:06,778 PageHomeLeomax:200.searchInput()  - Вносим текст: Жидкая резина в поле
+[INFO ] 2023-09-07 17:43:06,972 PageHomeLeomax:211.searchButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:10,143 PageHomeLeomax:206.textSearch()  - Получаем текст элемента: Жидкая резина "Фикс Про 3 в 1"
+[ERROR] 2023-09-07 17:43:10,179 LeomaxTest:132.stage11_searchGroup()  - Проверка фактического текста с ожидаемым:  Жидкая резина "Фикс Про 3 в 1" = Жидкая резина "Фикс Про 3 в 1"
+[INFO ] 2023-09-07 17:43:10,219 PageHomeLeomax:206.textSearch()  - Получаем текст элемента: Жидкая резина "Фикс Про 3 в 1"
+[INFO ] 2023-09-07 17:43:10,247 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:13,270 PageHomeLeomax:216.containerCity()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:14,568 PageHomeLeomax:221.modalText()  - Получаем текст элемента: Ваш регион
+[ERROR] 2023-09-07 17:43:14,612 LeomaxTest:145.stage12_containerCity()  - Проверка фактического текста с ожидаемым:  Ваш регион = Ваш регион
+[INFO ] 2023-09-07 17:43:14,642 PageHomeLeomax:221.modalText()  - Получаем текст элемента: Ваш регион
+[INFO ] 2023-09-07 17:43:14,684 PageHomeLeomax:216.containerCity()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:15,229 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:43:15,263 PageHomeLeomax:137.modalClosing()  - Закрыть элемент
+[INFO ] 2023-09-07 17:43:18,356 PageHomeLeomax:226.sliderSwiper()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:22,053 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:24,275 PageHomeLeomax:232.slickDotsOne()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:24,367 PageHomeLeomax:238.slickDotsTwo()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:24,477 PageHomeLeomax:244.slickDotsThree()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:24,552 PageHomeLeomax:250.slickDotsFour()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:24,628 PageHomeLeomax:256.slickDotsFive()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:24,710 PageHomeLeomax:262.slickDotsSix()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:24,806 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:28,018 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:43:28,174 PageHomeLeomax:277.slickDotsRightOne()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:28,290 PageHomeLeomax:283.slickDotsRightTwo()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:28,398 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:43:33,464 PageHomeLeomax:289.linkViewAll()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:13,848 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:17,103 PageHomeLeomax:301.goodListLeftSwiper()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:17,236 PageHomeLeomax:295.goodListRightSwiper()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:18,460 PageHomeLeomax:307.actionBannersOne()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:21,062 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Здоровое питание
+[INFO ] 2023-09-07 17:44:21,392 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Здоровое питание
+[ERROR] 2023-09-07 17:44:21,432 LeomaxTest:207.stage18_actionBannersOne()  - Проверка фактического текста с ожидаемым:  Здоровое питание = Здоровое питание
+[INFO ] 2023-09-07 17:44:21,460 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Здоровое питание
+[INFO ] 2023-09-07 17:44:21,476 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:23,216 PageHomeLeomax:313.actionBannersTwo()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:25,130 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Косметика и уход
+[INFO ] 2023-09-07 17:44:25,261 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Косметика и уход
+[ERROR] 2023-09-07 17:44:25,281 LeomaxTest:222.stage19_actionBannerTwo()  - Проверка фактического текста с ожидаемым:  Косметика и уход = Косметика и уход
+[INFO ] 2023-09-07 17:44:25,332 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Косметика и уход
+[INFO ] 2023-09-07 17:44:25,364 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:27,780 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:44:27,812 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:27,890 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:29,238 PageHomeLeomax:325.womenJacketsCatalog()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:32,590 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Куртки женские
+[INFO ] 2023-09-07 17:44:32,902 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Куртки женские
+[ERROR] 2023-09-07 17:44:32,934 LeomaxTest:236.stage20_catalogMenuWomenClothing()  - Проверка фактического текста с ожидаемым:  Куртки женские = Куртки женские
+[INFO ] 2023-09-07 17:44:32,962 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Куртки женские
+[INFO ] 2023-09-07 17:44:32,998 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:35,290 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:44:35,326 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:35,448 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:37,388 PageHomeLeomax:331.outerwearCatalog()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:40,525 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Верхняя одежда
+[INFO ] 2023-09-07 17:44:41,110 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Верхняя одежда
+[ERROR] 2023-09-07 17:44:41,138 LeomaxTest:251.stage21_outerwearCatalog()  - Проверка фактического текста с ожидаемым:  Верхняя одежда = Верхняя одежда
+[INFO ] 2023-09-07 17:44:41,162 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Верхняя одежда
+[INFO ] 2023-09-07 17:44:41,194 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:42,967 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:44:43,013 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:43,105 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:44,994 PageHomeLeomax:337.blousesAndTunics()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:48,743 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Блузы и туники
+[INFO ] 2023-09-07 17:44:48,961 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Блузы и туники
+[ERROR] 2023-09-07 17:44:48,989 LeomaxTest:266.stage22_blousesAndTunics()  - Проверка фактического текста с ожидаемым:  Блузы и туники = Блузы и туники
+[INFO ] 2023-09-07 17:44:49,021 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Блузы и туники
+[INFO ] 2023-09-07 17:44:49,045 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:50,760 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:44:50,812 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:50,902 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:52,342 PageHomeLeomax:349.buttonShowAll()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:53,207 PageHomeLeomax:343.dresses()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:55,989 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Модные платья 2023
+[INFO ] 2023-09-07 17:44:56,497 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Модные платья 2023
+[ERROR] 2023-09-07 17:44:56,526 LeomaxTest:280.stage23_dresses()  - Проверка фактического текста с ожидаемым:  Модные платья 2023 = Модные платья 2023
+[INFO ] 2023-09-07 17:44:56,558 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Модные платья 2023
+[INFO ] 2023-09-07 17:44:56,578 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:58,652 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:44:58,692 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:44:58,810 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:00,539 PageHomeLeomax:349.buttonShowAll()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:01,045 PageHomeLeomax:355.womenTrousers()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:03,484 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Брюки женские
+[INFO ] 2023-09-07 17:45:03,948 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Брюки женские
+[ERROR] 2023-09-07 17:45:03,972 LeomaxTest:294.stage24_womenTrousers()  - Проверка фактического текста с ожидаемым:  Брюки женские = Брюки женские
+[INFO ] 2023-09-07 17:45:04,041 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Брюки женские
+[INFO ] 2023-09-07 17:45:04,069 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:06,056 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:45:06,091 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:06,195 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:07,816 PageHomeLeomax:349.buttonShowAll()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:08,365 PageHomeLeomax:361.thermalUnderwear()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:11,502 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Термобелье
+[INFO ] 2023-09-07 17:45:11,679 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Термобелье
+[ERROR] 2023-09-07 17:45:11,708 LeomaxTest:308.stage25_thermalUnderwear()  - Проверка фактического текста с ожидаемым:  Термобелье = Термобелье
+[INFO ] 2023-09-07 17:45:11,735 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Термобелье
+[INFO ] 2023-09-07 17:45:11,767 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:14,463 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:45:14,495 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:14,648 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:16,988 PageHomeLeomax:349.buttonShowAll()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:17,421 PageFunction:75.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> xpath: //a[text()=' Леггинсы    ']]
+[INFO ] 2023-09-07 17:45:17,713 PageHomeLeomax:367.leggings()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:21,298 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Леггинсы
+[INFO ] 2023-09-07 17:45:21,788 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Леггинсы
+[ERROR] 2023-09-07 17:45:21,812 LeomaxTest:324.stage26_leggings()  - Проверка фактического текста с ожидаемым:  Леггинсы = Леггинсы
+[INFO ] 2023-09-07 17:45:21,828 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Леггинсы
+[INFO ] 2023-09-07 17:45:21,852 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:24,845 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:45:25,689 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:25,923 PageFunction:75.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .menu-desktop__col-level-1 li.menu-desktop__item:nth-of-type(2)]
+[INFO ] 2023-09-07 17:45:26,071 PageHomeLeomax:373.menJacketsCatalog()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:28,325 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Мужские куртки
+[INFO ] 2023-09-07 17:45:28,447 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Мужские куртки
+[ERROR] 2023-09-07 17:45:28,511 LeomaxTest:340.stage27_catalogMenuMenClothing()  - Проверка фактического текста с ожидаемым:  Мужские куртки = Мужские куртки
+[INFO ] 2023-09-07 17:45:28,543 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Мужские куртки
+[INFO ] 2023-09-07 17:45:28,575 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:31,664 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:45:31,708 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:31,860 PageFunction:75.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .menu-desktop__col-level-1 li.menu-desktop__item:nth-of-type(5)]
+[INFO ] 2023-09-07 17:45:32,048 PageFunction:78.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> xpath: //a[text()='Хобби и аксессуары']]
+[INFO ] 2023-09-07 17:45:32,243 PageHomeLeomax:379.hobbiesAndAccessories()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:36,025 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Хобби и аксессуары
+[INFO ] 2023-09-07 17:45:36,081 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Хобби и аксессуары
+[ERROR] 2023-09-07 17:45:36,121 LeomaxTest:357.stage28_householdGoods()  - Проверка фактического текста с ожидаемым:  Хобби и аксессуары = Хобби и аксессуары
+[INFO ] 2023-09-07 17:45:36,181 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Хобби и аксессуары
+[INFO ] 2023-09-07 17:45:36,211 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:39,269 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:45:39,303 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:39,621 PageFunction:75.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .menu-desktop__col-level-1 li.menu-desktop__item:nth-of-type(5)]
+[INFO ] 2023-09-07 17:45:39,809 PageFunction:78.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> xpath: //a[text()='Хобби и аксессуары']]
+[INFO ] 2023-09-07 17:45:39,974 PageFunction:82.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> xpath: (//a[text()='Рыбалка и туризм'])[2]]
+[INFO ] 2023-09-07 17:45:40,141 PageHomeLeomax:385.fishingAndTourism()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:43,198 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Рыбалка и туризм
+[INFO ] 2023-09-07 17:45:43,693 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Рыбалка и туризм
+[ERROR] 2023-09-07 17:45:43,726 LeomaxTest:374.stage29_householdGoodsTwo()  - Проверка фактического текста с ожидаемым:  Рыбалка и туризм = Рыбалка и туризм
+[INFO ] 2023-09-07 17:45:43,757 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Рыбалка и туризм
+[INFO ] 2023-09-07 17:45:43,781 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:46,977 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:45:47,056 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:47,190 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:49,855 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
+[ERROR] 2023-09-07 17:45:49,906 LeomaxTest:389.stage30_linkNewnessCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Женская одежда = Женская одежда
+[INFO ] 2023-09-07 17:45:49,928 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
+[INFO ] 2023-09-07 17:45:49,992 PageWomenClothing:109.linkDiscount()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:50,334 PageWomenClothing:104.linkNewness()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:51,249 PageHomeLeomax:148.headerLogo()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:57,352 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:45:57,432 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:45:57,592 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:00,581 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
+[ERROR] 2023-09-07 17:46:00,741 LeomaxTest:407.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Женская одежда = Женская одежда
+[INFO ] 2023-09-07 17:46:00,769 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
+[INFO ] 2023-09-07 17:46:00,801 PageWomenClothing:114.jacketsCatalogWomenClothing()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:03,039 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
+[ERROR] 2023-09-07 17:46:03,075 LeomaxTest:411.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Куртки женские = Куртки женские
+[INFO ] 2023-09-07 17:46:03,095 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
+[INFO ] 2023-09-07 17:46:03,388 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:46:03,422 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:03,509 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:06,377 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
+[ERROR] 2023-09-07 17:46:06,397 LeomaxTest:407.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Женская одежда = Женская одежда
+[INFO ] 2023-09-07 17:46:06,449 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
+[INFO ] 2023-09-07 17:46:06,601 PageWomenClothing:114.jacketsCatalogWomenClothing()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:09,561 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
+[ERROR] 2023-09-07 17:46:09,797 LeomaxTest:411.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Куртки женские = Куртки женские
+[INFO ] 2023-09-07 17:46:09,861 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
+[INFO ] 2023-09-07 17:46:09,917 PageFunction:106.actionSliderOffset()  - Cмещение элемента по заданным координатам x,y [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: div[id = priceSlider] div.ui-rangeSlider-rightLabel]-1000
+[INFO ] 2023-09-07 17:46:10,618 PageWomenClothing:124.clickButtonViewProducts()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:11,149 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:46:11,177 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:11,259 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:14,758 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
+[ERROR] 2023-09-07 17:46:15,090 LeomaxTest:407.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Женская одежда = Женская одежда
+[INFO ] 2023-09-07 17:46:15,128 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
+[INFO ] 2023-09-07 17:46:15,152 PageWomenClothing:114.jacketsCatalogWomenClothing()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:17,053 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
+[ERROR] 2023-09-07 17:46:17,129 LeomaxTest:411.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Куртки женские = Куртки женские
+[INFO ] 2023-09-07 17:46:17,197 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
+[INFO ] 2023-09-07 17:46:17,258 PageFunction:106.actionSliderOffset()  - Cмещение элемента по заданным координатам x,y [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: div[id = priceSlider] div.ui-rangeSlider-leftLabel]800
+[INFO ] 2023-09-07 17:46:18,270 PageWomenClothing:124.clickButtonViewProducts()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:18,632 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:46:18,656 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:18,732 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:21,654 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
+[ERROR] 2023-09-07 17:46:21,686 LeomaxTest:407.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Женская одежда = Женская одежда
+[INFO ] 2023-09-07 17:46:21,714 PageHomeLeomax:132.textCatalog()  - Получаем текст элемента: Женская одежда
+[INFO ] 2023-09-07 17:46:21,746 PageWomenClothing:114.jacketsCatalogWomenClothing()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:24,635 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
+[ERROR] 2023-09-07 17:46:24,662 LeomaxTest:411.stage31_linkWomenJacketsCatalogWomenClothing()  - Проверка фактического текста с ожидаемым:  Куртки женские = Куртки женские
+[INFO ] 2023-09-07 17:46:24,696 PageWomenClothing:119.textCatalogWomenClothing()  - Получаем текст элемента: Куртки женские
+[INFO ] 2023-09-07 17:46:24,949 PageFunction:106.actionSliderOffset()  - Cмещение элемента по заданным координатам x,y [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: div[id = priceSlider] div.ui-rangeSlider-leftLabel]100
+[INFO ] 2023-09-07 17:46:27,198 PageFunction:113.actionSliderOffset()  - Cмещение элемента по заданным координатам x,y работая с двумя элементами: [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: div[id = discountSlider] div.ui-rangeSlider-leftLabel] 10 0 и [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: div[id = discountSlider] div.ui-rangeSlider-rightLabel] -80 0
+[INFO ] 2023-09-07 17:46:28,381 PageWomenClothing:129.buttonFiltersDemonstrate()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:31,623 PageWomenClothing:134.textFiltersSearch()  - Получаем текст элемента: Найдено 0 товаров
+[ERROR] 2023-09-07 17:46:31,655 LeomaxTest:455.stage34_fullFilterOfTheProductCatalogWomen()  - Проверка фактического текста с ожидаемым:  Найдено 0 товаров = Найдено 0 товаров
+[INFO ] 2023-09-07 17:46:31,689 PageWomenClothing:134.textFiltersSearch()  - Получаем текст элемента: Найдено 0 товаров
+[INFO ] 2023-09-07 17:46:31,757 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:46:31,789 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:31,920 PageHomeLeomax:319.catalogMenuWoman()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:34,920 PageFunction:75.actionClickOrPerform()  - Переход: [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: div.good-item:nth-of-type(1) figure.good_hovered]
+[INFO ] 2023-09-07 17:46:35,200 PageWomenClothing:139.buttonBasketCatalog()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:35,510 PageFunction:64.modalClosing()  - Если [[ChromeDriver: chrome on windows (ab3357214e2eee198d2f44c212db1104)] -> css selector: .modal-city-selection__closing] отображается, выполнить: 
+[INFO ] 2023-09-07 17:46:35,546 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:36,737 PageHomeLeomax:142.catalogButton()  - Клик по элементу
+[INFO ] 2023-09-07 17:46:37,896 PageWebDriver:59.tearDown()  - Сделать скриншот при упавшем тесте 
+[INFO ] 2023-09-07 17:46:38,184 PageWebDriver:61.tearDown()  - Выходим из драйвера
