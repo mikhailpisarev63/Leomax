@@ -1,5 +1,5 @@
+import PageFactory.PageFunction;
 import PageFactory.PageWebDriver;
-import PageFactory.TestListenerClass;
 import com.tngtech.java.junit.dataprovider.DataProvider;
 import com.tngtech.java.junit.dataprovider.DataProviderRunner;
 import com.tngtech.java.junit.dataprovider.UseDataProvider;
@@ -19,7 +19,6 @@ import org.openqa.selenium.By;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 @RunWith(DataProviderRunner.class)
 public class LeomaxTest extends PageWebDriver {
-    TestListenerClass testListenerClass = new TestListenerClass();
     public final Logger LOGGER = LogManager.getLogger(this.getClass());
 
     @DisplayName("C01 Закрытие модального окна")
@@ -27,7 +26,6 @@ public class LeomaxTest extends PageWebDriver {
     @Owner("Писарев Михаил")
     @Test
     public void stage01_modalClosing() {
-        testListenerClass.testFailed();
         pageFunction.modalClosing(pageHomeLeomax.modalClosing);
     }
 
@@ -36,7 +34,6 @@ public class LeomaxTest extends PageWebDriver {
     @Owner("Писарев Михаил")
     @Test
     public void stage02_topBanner() {
-        testListenerClass.testFailed();
         String textCatalog = "Тренды осени 2023. Оверсайз";
         stage01_modalClosing();
         pageHomeLeomax.topBanner();
@@ -51,7 +48,6 @@ public class LeomaxTest extends PageWebDriver {
     @Description("Клик на ссылку Акции")
     @Owner("Писарев Михаил")
     public void stage03_clickOnTheActionLink() {
-        testListenerClass.testFailed();
         stage01_modalClosing();
         pageHomeLeomax.actionLink().headerLogo();
     }

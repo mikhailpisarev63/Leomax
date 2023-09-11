@@ -1,5 +1,6 @@
 package PageFactory;
 
+import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
@@ -41,6 +42,11 @@ public class PageFunction {
         var sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(sourceFile, new File("C:\\Users\\Public\\Downloads\\screenshot"
                 + random.nextInt() + ".png"));
+    }
+    //    Сделает скриншот и прикрепит в allure
+    public void takeScreenshotAllure() {
+        Allure.getLifecycle().addAttachment("Скриншот", "image/png", "png",
+                ((TakesScreenshot) PageWebDriver.driver).getScreenshotAs(OutputType.BYTES));
     }
 
     //    Перезагрузка страницы
