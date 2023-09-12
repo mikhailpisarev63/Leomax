@@ -24,7 +24,7 @@ public class LeomaxTest extends PageWebDriver {
     @Description("Закрытие модального окна")
     @Owner("Писарев Михаил")
     @Test
-    public void C01() {
+    public void test_01() {
         pageFunction.modalClosing(pageHomeLeomax.modalClosing);
     }
 
@@ -32,9 +32,9 @@ public class LeomaxTest extends PageWebDriver {
     @Description("Клик на ссылку Баннер и проверка по тексту баннера")
     @Owner("Писарев Михаил")
     @Test
-    public void C02() {
+    public void test_02() {
         String textCatalog = "Тренды осени 2023. Оверсайз";
-        C01();
+        test_01();
         pageHomeLeomax.topBanner();
         LOGGER.error("Проверка фактического текста с ожидаемым: " + " " + textCatalog + " = "
                 + pageHomeLeomax.textCatalog());
@@ -46,8 +46,8 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C03 Клик на ссылку Акции")
     @Description("Клик на ссылку Акции")
     @Owner("Писарев Михаил")
-    public void C03() {
-        C01();
+    public void test_03() {
+        test_01();
         pageHomeLeomax.actionLink().headerLogo();
     }
 
@@ -64,7 +64,7 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C05 Клик на ссылку Live трансляция")
     @Description("Клик на ссылку Live трансляция")
     @Owner("Писарев Михаил")
-    public void C05() {
+    public void test_05() {
         C01();
         pageHomeLeomax.liveBroadcast().headerLogo();
     }
