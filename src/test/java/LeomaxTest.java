@@ -55,8 +55,8 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C04 Клик на ссылку Бренды")
     @Description("Клик на ссылку Бренды")
     @Owner("Писарев Михаил")
-    public void C04() {
-        C01();
+    public void test_04() {
+        test_01();
         pageHomeLeomax.linkToBrands().headerLogo();
     }
 
@@ -65,7 +65,7 @@ public class LeomaxTest extends PageWebDriver {
     @Description("Клик на ссылку Live трансляция")
     @Owner("Писарев Михаил")
     public void test_05() {
-        C01();
+        test_01();
         pageHomeLeomax.liveBroadcast().headerLogo();
     }
 
@@ -73,8 +73,8 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C06 Клик на ссылку Товары из рекламы")
     @Description("Клик на ссылку Товары из рекламы")
     @Owner("Писарев Михаил")
-    public void C06() {
-        C01();
+    public void test_06() {
+        test_01();
         pageHomeLeomax.productsFromAdvertising().headerLogo();
     }
 
@@ -82,8 +82,8 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C07 Клик на ссылку Ликвидация")
     @Description("Клик на ссылку Ликвидация")
     @Owner("Писарев Михаил")
-    public void C07() {
-        C01();
+    public void test_07() {
+        test_01();
         pageHomeLeomax.linkLiquidation().headerLogo();
     }
 
@@ -91,7 +91,7 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C08 Клик на Войти")
     @Description("Клик на Войти")
     @Owner("Писарев Михаил")
-    public void C08() {
+    public void test_08() {
         pageHomeLeomax.loginLink();
         pageFunction.refresh();
     }
@@ -100,8 +100,8 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C09 Клик на Избранное")
     @Description("Клик на Избранное")
     @Owner("Писарев Михаил")
-    public void C09() {
-        C01();
+    public void test_09() {
+        test_01();
         pageHomeLeomax.clickFavourites().headerLogo();
     }
 
@@ -109,8 +109,8 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C10 Клик на Корзину ")
     @Description("Клик на Корзину")
     @Owner("Писарев Михаил")
-    public void C10() {
-        C01();
+    public void test_10() {
+        test_01();
         pageHomeLeomax.linkBasket().headerLogo();
     }
 
@@ -118,7 +118,7 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C11 Поиск товара ")
     @Description("Осуществляем поиск товара Жидкая резина и сверяемся по тексту")
     @Owner("Писарев Михаил")
-    public void C11() {
+    public void test_11() {
         String text = "Жидкая резина";
         String textSearch = "Жидкая резина \"Фикс Про 3 в 1\"";
         pageFunction.modalClosing(pageHomeLeomax.modalClosing);
@@ -134,7 +134,7 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C12 Клик на ссылку модального окна Ваш регион")
     @Description("Клик на ссылку модального окна Ваш регион и закрытие модального окна")
     @Owner("Писарев Михаил")
-    public void C12() {
+    public void test_12() {
         String modalText1 = "Ваш регион";
         pageHomeLeomax.containerCity();
         LOGGER.error("Проверка фактического текста с ожидаемым: " + " " + modalText1 + " = "
@@ -147,8 +147,8 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C13 Клик по карточке  большого свайпера")
     @Description("Клик по карточке большого свайпера по первому элементу")
     @Owner("Писарев Михаил")
-    public void C13() {
-        C01();
+    public void test_13() {
+        test_01();
         pageHomeLeomax.sliderSwiper().headerLogo();
     }
 
@@ -156,7 +156,7 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C14 Клик на пагинацию большого свайпера")
     @Description("Клик на пагинацию большого свайпера по всем элементам пагинации")
     @Owner("Писарев Михаил")
-    public void C14() {
+    public void test_14() {
         pageFunction.waitTenSeconds(By.cssSelector(".good-of-the-day ul.slick-dots li:nth-of-type(1)"));
         pageHomeLeomax.slickDotsOne().slickDotsTwo().slickDotsThree().slickDotsFour().slickDotsFive()
                 .slickDotsSix().headerLogo();
@@ -166,7 +166,7 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C15 Переход к правому свайперу на главной страницы")
     @Description("Переход к элементу главной страницы к пагинации правому свайперу клик на 1 и 2 свайпер")
     @Owner("Писарев Михаил")
-    public void C15() {
+    public void test_15() {
         pageFunction.modalClosing(pageHomeLeomax.modalClosing);
         pageHomeLeomax.slickDotsRightOne().slickDotsRightTwo().headerLogo();
     }
@@ -176,7 +176,7 @@ public class LeomaxTest extends PageWebDriver {
     @Description("Переход в раздел на главной страницы: Сегодня в прямом эфире Телемагазина Leomax" +
             " и клик по кнопке: Смотреть все")
     @Owner("Писарев Михаил")
-    public void C16() {
+    public void test_16() {
         pageFunction.modalClosingAndScrollToTheElement(pageHomeLeomax.linkViewAll);
         pageHomeLeomax.linkViewAll().headerLogo();
     }
@@ -185,7 +185,7 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C17 Клик на пагинацию в разделе на главной страницы: Сегодня в прямом эфире Телемагазина Leomax ")
     @Description("Переход к элементу главной страницы к пагинации, клик на 1 и 2 элемент")
     @Owner("Писарев Михаил")
-    public void C17() {
+    public void test_17() {
         pageFunction.modalClosingAndScrollToTheElement(pageHomeLeomax.linkViewAll);
         pageHomeLeomax.goodListLeftSwiper().goodListRightSwiper().headerLogo();
     }
@@ -194,7 +194,7 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C18 Переход к первому элементу на главной страницы: Хиты продаж")
     @Description("Переход к элементу главной страницы в раздел Хиты продаж и сравнение по тексту")
     @Owner("Писарев Михаил")
-    public void C18() {
+    public void test_18() {
         String textCatalogOne = "Здоровое питание";
         pageFunction.javaScriptScrollToTheElement(pageHomeLeomax.linkViewAll);
         pageFunction.waitTenSeconds(By.cssSelector("ul.action-banners__list li:nth-of-type(1) .banner-block__overlay"));
@@ -209,7 +209,7 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C19 Переход к второму элементу на главной страницы: Хиты продаж")
     @Description("Переход к элементу главной страницы в раздел Хиты продаж и сравнение по тексту")
     @Owner("Писарев Михаил")
-    public void C19() {
+    public void test_19() {
         String textCatalogTwo = "Косметика и уход";
         pageFunction.javaScriptScrollToTheElement(pageHomeLeomax.linkViewAll);
         pageFunction.waitTenSeconds(By.cssSelector("ul.action-banners__list li:nth-of-type(2) .banner-block__overlay"));
@@ -224,9 +224,9 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C20 Переход из каталога: Женская одежда - Куртки женские")
     @Description("Клик по кнопке Каталог переход Женская одежда и клик на элемент Куртки женские и сравнение по тексту")
     @Owner("Писарев Михаил")
-    public void C20() {
+    public void test_20() {
         String textCatalog = "Куртки женские";
-        C01();
+        test_01();
         pageHomeLeomax.catalogButton().catalogMenuWoman().womenJacketsCatalog().textCatalog();
         LOGGER.error("Проверка фактического текста с ожидаемым: " + " " + textCatalog + " = "
                 + pageHomeLeomax.textCatalog());
@@ -239,9 +239,9 @@ public class LeomaxTest extends PageWebDriver {
     @Description("Клик по кнопке Каталог клик Женская одежда и клик на элемент Верхняя одежда" +
             " в фильтре сравнение по тексту")
     @Owner("Писарев Михаил")
-    public void C21() {
+    public void test_21() {
         String textCatalog = "Верхняя одежда";
-        C01();
+        test_01();
         pageHomeLeomax.catalogButton().catalogMenuWoman().outerwearCatalog().textCatalog();
         LOGGER.error("Проверка фактического текста с ожидаемым: " + " " + textCatalog + " = "
                 + pageHomeLeomax.textCatalog());
@@ -254,9 +254,9 @@ public class LeomaxTest extends PageWebDriver {
     @Description("Клик по кнопке Каталог клик Женская одежда и клик на элемент Блузы и туники " +
             "в фильтре сравнение по тексту")
     @Owner("Писарев Михаил")
-    public void C22() {
+    public void test_22() {
         String textCatalog = "Блузы и туники";
-        C01();
+        test_01();
         pageHomeLeomax.catalogButton().catalogMenuWoman().blousesAndTunics().textCatalog();
         LOGGER.error("Проверка фактического текста с ожидаемым: " + " " + textCatalog + " = "
                 + pageHomeLeomax.textCatalog());
@@ -268,9 +268,9 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C24 Переход из каталога: Женская одежда - Платья")
     @Description("Клик по кнопке Каталог клик Женская одежда и клик на элемент Платья в фильтре сравнение по тексту ")
     @Owner("Писарев Михаил")
-    public void C23() {
+    public void test_23() {
         String textCatalog = "Модные платья 2023";
-        C01();
+        test_01();
         pageHomeLeomax.catalogButton().catalogMenuWoman().buttonShowAll().dresses().textCatalog();
         LOGGER.error("Проверка фактического текста с ожидаемым: " + " " + textCatalog + " = "
                 + pageHomeLeomax.textCatalog());
@@ -282,9 +282,9 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C24 Переход из каталога: Женская одежда - Брюки женские")
     @Description("Клик по кнопке Каталог переход Женская одежда и клик на элемент Брюки женские")
     @Owner("Писарев Михаил")
-    public void C24() {
+    public void test_24() {
         String textCatalog = "Брюки женские";
-        C01();
+        test_01();
         pageHomeLeomax.catalogButton().catalogMenuWoman().buttonShowAll().womenTrousers().textCatalog();
         LOGGER.error("Проверка фактического текста с ожидаемым: " + " " + textCatalog + " = "
                 + pageHomeLeomax.textCatalog());
@@ -296,9 +296,9 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C25 Переход из каталога: Женская одежда - Термобелье")
     @Description("Клик по кнопке Каталог переход Женская одежда и клик на элемент Термобелье")
     @Owner("Писарев Михаил")
-    public void C25() {
+    public void test_25() {
         String textCatalog = "Термобелье";
-        C01();
+        test_01();
         pageHomeLeomax.catalogButton().catalogMenuWoman().buttonShowAll().thermalUnderwear().textCatalog();
         LOGGER.error("Проверка фактического текста с ожидаемым: " + " " + textCatalog + " = "
                 + pageHomeLeomax.textCatalog());
@@ -310,9 +310,9 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C26 Переход из каталога: Женская одежда - Легинсы")
     @Description("Клик по кнопке Каталог переход Женская одежда и клик на элемент Легинсы")
     @Owner("Писарев Михаил")
-    public void C26() {
+    public void test_26() {
         String textCatalog = "Леггинсы";
-        C01();
+        test_01();
         pageHomeLeomax.catalogButton().catalogMenuWoman().buttonShowAll();
         pageFunction.actionClickOrPerform(1, pageHomeLeomax.leggings);
         pageHomeLeomax.leggings().textCatalog();
@@ -326,9 +326,9 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C27 Переход из каталога: Мужская одежда - Куртки мужские")
     @Description("Клик по кнопке Каталог переход Мужская одежда и клик на элемент Куртки мужские")
     @Owner("Писарев Михаил")
-    public void C27() {
+    public void test_27() {
         String textCatalog = "Мужские куртки";
-        C01();
+        test_01();
         pageHomeLeomax.catalogButton();
         pageFunction.actionClickOrPerform(1, pageHomeLeomax.catalogMenuMen);
         pageHomeLeomax.menJacketsCatalog().textCatalog();
@@ -343,9 +343,9 @@ public class LeomaxTest extends PageWebDriver {
     @Description("Клик по кнопке Каталог переход на Товары для дома - Хобби и аксессуары" +
             " и клик на элемент Рыбалка и Туризм")
     @Owner("Писарев Михаил")
-    public void C28() {
+    public void test_28() {
         String textCatalog = "Хобби и аксессуары";
-        C01();
+        test_01();
         pageHomeLeomax.catalogButton();
         pageFunction.actionClickOrPerform(1, pageHomeLeomax.householdGoods, pageHomeLeomax.hobbiesAndAccessories);
         pageHomeLeomax.hobbiesAndAccessories().textCatalog();
@@ -359,9 +359,9 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C29 Переход из каталога: Товары для дома - Хобби и аксессуары и на Рыбалка и Туризм")
     @Description("Клик по кнопке Каталог переход и клик на элемент Рыбалка и Туризм")
     @Owner("Писарев Михаил")
-    public void C29() {
+    public void test_29() {
         String textCatalog = "Рыбалка и туризм";
-        C01();
+        test_01();
         pageHomeLeomax.catalogButton();
         pageFunction.actionClickOrPerform(1, pageHomeLeomax.householdGoods, pageHomeLeomax.hobbiesAndAccessories,
                 pageHomeLeomax.fishingAndTourism);
@@ -377,9 +377,9 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C30 Поиск по фильтру: скидка-новизне из Каталога: Женской одежды")
     @Description("Клик по кнопке Каталог переход в каталог Женской одежды, клик по фильтру: скидка-новизне")
     @Owner("Писарев Михаил")
-    public void C30() {
+    public void test_30() {
         String textCatalog = "Женская одежда";
-        C01();
+        test_01();
         pageHomeLeomax.catalogButton().catalogMenuWoman();
         LOGGER.error("Проверка фактического текста с ожидаемым: " + " " + textCatalog + " = "
                 + pageHomeLeomax.textCatalog());
@@ -394,10 +394,10 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C31 Поиск по фильтру: Куртки женские из Каталога: Женской одежды")
     @Description("Клик по кнопке Каталог переход в каталог Женской одежды, клик по фильтру: Куртки женские")
     @Owner("Писарев Михаил")
-    public void C31() {
+    public void test_31() {
         String textCatalog = "Женская одежда";
         String textJacketsCatalog = "Куртки женские";
-        C01();
+        test_01();
         pageHomeLeomax.catalogButton().catalogMenuWoman();
         LOGGER.error("Проверка фактического текста с ожидаемым: " + " " + textCatalog + " = "
                 + pageHomeLeomax.textCatalog());
@@ -413,8 +413,8 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C32 Фильтр по правому слайдеру цены и клик по кнопке: Посмотреть товары ")
     @Description("Перемещение фильтра (Правого слайдера) цены с помощью мыши и клик по кнопке посмотреть товары")
     @Owner("Писарев Михаил")
-    public void C32() {
-        C31();
+    public void test_32() {
+        test_31();
         pageFunction.actionSliderOffset(pageWomenClothing.sliderRightLabel, -100, 0);
         pageWomenClothing.clickButtonViewProducts();
     }
@@ -423,8 +423,8 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C33 Фильтр по левому слайдеру цены и клик по кнопке: Посмотреть товары ")
     @Description("Перемещение фильтра (Левого слайдера) цены с помощью мыши и клик по кнопке посмотреть товары")
     @Owner("Писарев Михаил")
-    public void C33() {
-        C31();
+    public void test_33() {
+        test_31();
         pageFunction.actionSliderOffset(pageWomenClothing.sliderLeftLabel, 80, 0);
         pageWomenClothing.clickButtonViewProducts();
     }
@@ -433,9 +433,9 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C34 Поиск товара по фильтру из каталога женской одежды")
     @Description("Фильтр: слайдер по цене, цвет, тип, Размер, Сезон, Бренды, Слайдер скидка")
     @Owner("Писарев Михаил")
-    public void C34() {
+    public void test_34() {
         String textFilters = "Найдено 0 товаров";
-        C31();
+        test_31();
         pageFunction.actionSliderOffset(pageWomenClothing.sliderLeftLabel, 10, 0);
         pageFunction.actionClickOrPerform(2,
                 pageWomenClothing.clickCheckboxColorBlue,
@@ -456,7 +456,7 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C35 Добавление одного товара в корзину")
     @Description("Добавление товара в корзину из каталога женской одежды")
     @Owner("Писарев Михаил")
-    public void C35() {
+    public void test_35() {
         String textModalWindowCard = "Выберите параметры";
         String textYourShoppingCart = "Ваша корзина";
         pageFunction.modalClosing(pageHomeLeomax.modalClosing);
@@ -487,9 +487,9 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C36 Добавление товара и увеличение кол-ва товара в корзине")
     @Description("Добавление товара в корзину - переход в корзину + увеличение кол-ва товара и удаление")
     @Owner("Писарев Михаил")
-    public void C36() {
+    public void test_36() {
         String text = "Товар удалён. Восстановить";
-        C35();
+        test_35();
         pageHomeLeomax.linkBasket();
         pageFunction.sleep(1000);
         pageBasket.filterPlusShoppingCart().filterMinusShoppingCart();
@@ -510,7 +510,7 @@ public class LeomaxTest extends PageWebDriver {
     @DisplayName("C37 Добавление двух разных товаров в корзину")
     @Description("Добавление двух разных товаров в корзину из каталога женской одежды")
     @Owner("Писарев Михаил")
-    public void C37() {
+    public void test_37() {
         String textModalWindowCard = "Выберите параметры";
         String textYourShoppingCart = "Ваша корзина";
         pageHomeLeomax.catalogButton().catalogMenuWoman();
@@ -564,8 +564,8 @@ public class LeomaxTest extends PageWebDriver {
     @Description("Оформление заказа с помощью нескольких параметров валидных и не валидных значений")
     @Owner("Писарев Михаил")
     @UseDataProvider("testExampleProvider")
-    public void C38(String name, String personalMobile) {
-        C35();
+    public void test_38(String name, String personalMobile) {
+        test_35();
         pageFunction.actionClickOrPerform(1, pageBasket.buttonQuickOrder);
         pageBasket.buttonQuickOrder();
         pageBasket.fieldPersonalName(name).fieldPersonalMobile(personalMobile);
